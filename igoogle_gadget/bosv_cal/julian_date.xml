@@ -1,0 +1,146 @@
+<?xml   version="1.0"  encoding="UTF-8" ?>
+
+<Module> 
+  <ModulePrefs title="Julian Date" 
+	author="Neo-Tek"
+    screenshot="julian_date.png"
+	thumbnail="calendar.png"
+    description="Showing the Julian Date"
+	author_email="neo@tek.ro"
+	author_location="Bucharest, Romania"
+    width="250"
+    height="65"
+	/> 
+  <Content type="html"> 
+<![CDATA[ 
+
+><script type="text/javascript"> 
+    var curDate, html, curYear,curMonth,curDay,curHours,curMinutes,curSeconds,daycount,julDate;
+	var aeons=new Object();
+	aeons.GMT_DIFF = 2;
+	aeons.DAYS_IN_YEAR = 365.25;
+	aeons.DAYS_IN_MONTH = 29.5308510659999; 
+	aeons.SECS_IN_DAY = 86400;
+	aeons.HOURS_IN_DAY = 24;
+	aeons.MIN_IN_HOUR = 60;
+	aeons.SECS_IN_MIN = 60;
+	aeons.LUNAR_CYCLE = 19;
+	aeons.SOLAR_CYCLE = 28;
+	aeons.EPOCH_YEAR = -5508;
+	aeons.EPOCH_MONTH = 3;
+	aeons.EPOCH_DAY = 18;
+	aeons.DAYS_TO_END_EPOCH_YEAR = 288;
+	aeons.DAYS_IN_4YEARS = 1461;
+	aeons.DIFF_UNIX_EPOCH = 2731250;
+	aeons.UNIX_EPOCH_YEAR = 1970;
+	aeons.DIFF_GREGORIAN_EPOCH = 290662.75;
+	aeons.YEAR_SPLIT = 1923;
+	aeons.DIFF_DAYS_STYLE = 13;
+
+    html="";
+	curDate = new Date();
+	curYear = curDate.getFullYear();
+	curMonth = 1 + curDate.getMonth();
+	curDay = curDate.getDate();
+	curHours = curDate.getHours()
+	curMinutes = curDate.getMinutes();
+	if (curMinutes < 10)
+	  curMinutes = "0" + curMinutes;
+	daycount = getCD(curYear,curMonth,curDay,aeons);
+	daycount = daycount - 13;
+	var julDate = calculateDate(daycount,aeons);
+
+	//html += julDate[0]+"/"+julDate[1]+"/"+julDate[2]+"<br/>";
+	html += julDate[2]+"/"+julDate[1]+"/"+julDate[0]+" ("+curDay+'/'+curMonth+'/'+curYear+")<br/>";
+	html += addCommas(Math.floor(daycount/7)) +'th '+getEnWeekday(daycount)+' : '+addCommas(daycount) +'th day<br>';
+    //html += curDay+'/'+curMonth+'/'+curYear+' / ';
+	html += '  <b>' + curHours + ":" + curMinutes + " " + "... ";
+	html +=  "[<a target='_blank' style='text-decoration:none;' href='http://aeons.ro/index.php?option=com_aeons&amp;view=day&amp;day="+julDate[2]+"&amp;month="+
+	julDate[1]+"&amp;year="+julDate[0]+"'>today</a>] : ";
+ daycount = daycount + 1;
+julDate = calculateDate(daycount,aeons);
+  	html +=  "[<a target='_blank' style='text-decoration:none;' href='http://aeons.ro/index.php?option=com_aeons&amp;view=day&amp;day="+julDate[2]+"&amp;month="+
+	julDate[1]+"&amp;year="+julDate[0]+"'>tomorrow</a>]</b>";
+document.write('<center style="font-size:small;">' + html + '</center>');
+
+
+
+	function getCD(year,month,day,aeons) {
+		var days_to_month, CD;
+
+		days_to_month = daysToMonth(year, month);
+		CD = Math.round(aeons.DAYS_IN_4YEARS*(year - aeons.EPOCH_YEAR - 1)/4 + days_to_month + day + aeons.DAYS_TO_END_EPOCH_YEAR);
+		return CD;
+	}
+
+	function calculateDate(CD,aeons) {
+		var year1,temp1,year,temp3,month,temp2,day,date;
+		year1 = CD - aeons.DAYS_TO_END_EPOCH_YEAR+aeons.DAYS_IN_YEAR;
+	    temp1 = Math.floor(year1/aeons.DAYS_IN_YEAR);
+	    year = temp1 + aeons.EPOCH_YEAR;
+	    temp3 = year1 - temp1*aeons.DAYS_IN_YEAR;
+	    month = Math.round((year1 - temp1*aeons.DAYS_IN_YEAR)/aeons.DAYS_IN_MONTH)+1;  
+	    temp2 = daysToMonth(year, month);
+	    day = Math.ceil(temp3 - temp2);
+	    if (day < 1) {
+	        month--; 
+	        day = getDaysInMonth(month,year) + day;
+	    }
+		date = [year, month, day];
+		return date;
+	}
+
+	function daysToMonth(year, month) {
+	    var tot,i;
+		tot = 0;
+	    for(i=1; i<month;i++) {
+	        tot = tot + daysInMonth(i,year);
+	    }
+	    return tot;
+	}
+
+	function daysInMonth( month2 , year2 ) {
+	    var daysinmonth;
+		daysinmonth = [31,31,28,31,30,31,30,31,31,30,31,30,31];
+	    if (year2%4 == 0 && month2 == 2) return 29;
+	    return daysinmonth[month2];
+	}
+
+	function getWeekday(CD) {
+	    return Math.floor(Math.floor(CD) % 7);
+	}
+
+	function getEnWeekday(CD) {
+		var weekdays = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday","Sunday"];
+		return weekdays[getWeekday(CD)];
+	}
+
+	function now(aeons) {
+	    //global $new;
+	    var unixtime, days,time,CD;
+		unixtime = time() + aeons.GMT_DIFF*aeons.MIN_IN_HOUR*aeons.SECS_IN_MIN;
+	    //if ($new) $unixtime = $unixtime + 13*HOURS_IN_DAY*MIN_IN_HOUR*SECS_IN_MIN;
+	    days = floor(unixtime/aeons.SECS_IN_DAY);
+	    time = (unixtime - aeons.SECS_IN_DAY*days)/aeons.SECS_IN_DAY;
+
+	    CD = days + aeons.DIFF_UNIX_EPOCH ;
+	    return calculateDate(CD,aeons);        
+	}
+
+	function addCommas(nStr)
+	{
+	  nStr += '';
+	  x = nStr.split('.');
+	  x1 = x[0];
+	  x2 = x.length > 1 ? '.' + x[1] : '';
+	  var rgx = /(\d+)(\d{3})/;
+	  while (rgx.test(x1)) {
+	    x1 = x1.replace(rgx, '$1' + ',' + '$2');
+	  }
+	  return x1 + x2;
+	}
+
+</script> 
+]]>
+</Content> 
+</Module>
