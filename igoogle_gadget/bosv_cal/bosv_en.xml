@@ -1,0 +1,15 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs  title="BOSV Calendar (en)" 
+	author="Neo-Tek"
+        thumbnail="/ig/modules/day.jpeg"
+       description="The calendar for BOSV Romania"
+	author_email="neo@tek.ro"
+	author_location="Bucharest, Romania"
+     width="250"
+       height="400" />
+<Content type="html"><![CDATA[
+<iframe src="http://www.google.com/calendar/embed?title=Orthodox%20Calendar&amp;showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showCalendars=0&amp;height=400&amp;wkst=2&amp;hl=en&amp;bgcolor=%23FFFFFF&amp;src=jqughq5s56cr8mdng2cikl2d3c%40group.calendar.google.com&amp;color=%234E5D6C&amp;ctz=Asia%2FJerusalem"
+ style=" border-width:0 " width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+]]></Content>
+</Module>
