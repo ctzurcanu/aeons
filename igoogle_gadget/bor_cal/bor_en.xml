@@ -2,8 +2,9 @@
 <Module>
 <ModulePrefs  title="BOR Calendar (en)" 
 	author="Neo-Tek"
-        thumbnail="/ig/modules/day.jpeg"
-       description="The calendar for BOR Romania"
+        thumbnail="calendar.png"
+		screenshot="BOR-calendar.png"
+       description="The Christian Orthodox calendar for the Orthodox Church of Romania (new style). Part of the aeons.ro project: http://code.google.com/p/aeons/ and http://aeons.ro"
 	author_email="neo@tek.ro"
 	author_location="Bucharest, Romania"
      width="250"

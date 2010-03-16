@@ -2,8 +2,9 @@
 <Module>
 <ModulePrefs  title="BOSV Calendar (en)" 
 	author="Neo-Tek"
-        thumbnail="/ig/modules/day.jpeg"
-       description="The calendar for BOSV Romania"
+        thumbnail="calendar.png"
+		screenshot="BOSV-calendar.png"
+       description="The Christian Orthodox calendar for Old Style Orthodox Church of Romania. Part of the aeons.ro project: http://code.google.com/p/aeons/ and http://aeons.ro"
 	author_email="neo@tek.ro"
 	author_location="Bucharest, Romania"
      width="250"
