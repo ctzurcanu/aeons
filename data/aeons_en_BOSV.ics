@@ -1,0 +1,810 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:aeons.ro_en_BOSV
+X-WR-TIMEZONE:Asia/Jerusalem
+X-WR-CALDESC:Orthodox Calendar for the Old Style Church of Romania (old sty
+ le)\nlicence: Attribution-Noncommercial-No Derivative Works 3.0: http://cre
+ ativecommons.org/licenses/by-nc-nd/3.0/\nnotes:  http://aeons.ro/index.php?
+ option=com_aeons&view=notes\nauthor: Christian for aeons.ro
+BEGIN:VTIMEZONE
+TZID:Europe/Bucharest
+X-LIC-LOCATION:Europe/Bucharest
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+DTSTART:19700329T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+DTSTART:19701025T040000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100103
+DTEND;VALUE=DATE:20100104
+RRULE:FREQ=WEEKLY;INTERVAL=1;BYDAY=SU
+DTSTAMP:20100323T081230Z
+UID:mdrnor9ll7b52dg7kn3jo0t78c@google.com
+CREATED:20100315T204647Z
+DESCRIPTION:Sunday is the day consecrated to the Resurrection of the Lord a
+ nd most of the movable feasts. ( too bad the Google Calendar does not have 
+ the necessary technology to schedule those\, but can be found on http://aeo
+ ns.ro )
+LAST-MODIFIED:20100315T204647Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Resurrection of the Lor
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100304
+DTEND;VALUE=DATE:20100305
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:h9hcp9nfkb90sgfm0i1jps12us@google.com
+CREATED:20100315T154634Z
+DESCRIPTION:Apostles Archippus and Philemon of the Seventy\, and Martyr App
+ hia (1st c.). (0100)\nMartyrs Maximus\, Theodotus\, Hesychius\, and Asclepi
+ odotus of Adrianopolis (305-311). (0306)\nVenerable Rabulas of Samosata (53
+ 0). (0530)\nVenerables Eugene and Macarius\, presbyters\, confessors at Ant
+ ioch (363). (0363)\nVenerable Conon\, abbot in Palestine (555). (0555)\nVen
+ erable Philothea\, nun-martyr\, of Athens (1589) (Greek). (1589)
+LAST-MODIFIED:20100315T154634Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Apostles Archippus and Philemon of the Seventy\, and Martyr Apphia 
+ (1st c.)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100314
+DTEND;VALUE=DATE:20100315
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:i6ci0hh7o541k3on8coh9re6dk@google.com
+CREATED:20100315T154524Z
+DESCRIPTION:Martyr Eudocia of Heliopolis (152). (0152)\nVenerable Domnina o
+ f Syria (450-460). (0455)\nMartyr Antonina of Nicaea in Bithynia (284-305).
+  (0290)\nMartyrs Nestor\, Tribimius\, Marcellus\, and Anthony of Perge in P
+ amphylia (3rd c.). (0201)\nMartyrs Sophronius and Silvester (Greek).\nSt. N
+ estorian\nMartyrs Charisius\, Nicephorus\, and Agapius (Greek).\nVenerable 
+ Agapius of Vatopedi Skete of Kolitsou\, Mt. Athos\, and his four companions
+ .
+LAST-MODIFIED:20100315T154524Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Martyr Eudocia of Heliopolis (152)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100313
+DTEND;VALUE=DATE:20100314
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:385l19lhdh1i8hghqgd2hiqg50@google.com
+CREATED:20100315T154149Z
+DESCRIPTION:Venerable Basil the Confessor (747)\, companion of St. Procopiu
+ s at Decapolis. (0747)\nHieromartyr Proterius\, patriarch of Alexandria\, a
+ nd six companions (457). (0457)\nHieromartyr Nestor\, bishop of Magydos in 
+ Pamphylia (250). (0250)\nVenerables Marana\, Cyanna (Kyra)\, and Domnica (D
+ omnina)\, nuns\, of Syria (ca. 450). (0450)\n6 Holy Martyrs of Egypt\nApost
+ les Nymphas and Eubulus.\nVenerable Barsus of Damascus\, bishop (Greek).\nH
+ oly Martyr Avrichiu\nNew Virgin-martyr Kyranna of Thessalonica (1751) (Gree
+ k). (1751)
+LAST-MODIFIED:20100315T154149Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Venerable Basil the Confessor (747)\, companion of St. Procopius at
+  Decapolis.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100312
+DTEND;VALUE=DATE:20100313
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:eha06cj8eevvcu9k2fnh6301o4@google.com
+CREATED:20100315T154039Z
+DESCRIPTION:Venerable Procopius the Confessor of Decapolis (ca. 750). (0750
+ )\nMartyr Gelasius the Actor of Heliopolis (297). (0297)\nVenerable Thalela
+ eus\, hermit of Syria (460). (0460)\nVenerable Stephen\, monk of Constantin
+ ople (614) (Greek). (0614)\nMartyr Nesius (Greek).\nVenerables Asclepius an
+ d James of Syria\, monks (5th c.) (Greek). (0401)\nVenerable Timothy of Cae
+ sarea\, monk (Greek).
+LAST-MODIFIED:20100315T154039Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Venerable Procopius the Confessor of Decapolis (ca. 750)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100311
+DTEND;VALUE=DATE:20100312
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:lggeljmlbe98iru55u6rcr23fg@google.com
+CREATED:20100315T153950Z
+DESCRIPTION:St. Porphyrius\, bishop of Gaza (420). (0420)\nSt. Photina\, th
+ e Samaritan woman\, and her sisters Anatola\, Phota\, Photis\, Parasceva\, 
+ and Cyriaca\; her sons Photinus and Joses\; and Sebastian the Duke\, Victor
+ \, and Christodulus — all martyred under Nero (66) (Greek). (0066)\nMartyrs
+  Sebastian and Christodoulos (66). (0066)\nHoly Martyr Victor\nNew Martyr J
+ ohn Calphas ('the Apprentice') at Constantinople (1575) (Greek). (1575)
+LAST-MODIFIED:20100315T153950Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:St. Porphyrius\, bishop of Gaza (420)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100310
+DTEND;VALUE=DATE:20100311
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:pmvcov7fe80t9g3gfri5gpms1g@google.com
+CREATED:20100315T153857Z
+DESCRIPTION:St. Tarasius\, archbishop of Constantinople (806). (0806)\nMart
+ yrs Alexander at Marcionopolis (305) and Hypatius. (0305)\nHieromartyr Regi
+ nus\, bishop of the isle of Skopelos (355). (0355)\nHoly Martyr Ipatie\, ab
+ bot of the Monastery of Rufie\nMartyr Anthony.\nSt. Theodore\, fool-for-Chr
+ ist (Greek).\nSt. Maecellus\, bishop of Apamea in Syria (Greek).
+LAST-MODIFIED:20100315T153857Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:St. Tarasius\, archbishop of Constantinople (806)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100309
+DTEND;VALUE=DATE:20100310
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:8jkj2phqftpapfeii0rcmqfk60@google.com
+CREATED:20100315T153757Z
+DESCRIPTION:+ First (4th c.) and Second (452) Findings of the Precious Head
+  of St. John the Baptist. (0301)
+LAST-MODIFIED:20100315T153757Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:+ First (4th c.) and Second (452) Findings of the Precious Head of 
+ St. John the Baptist. (0301)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100308
+DTEND;VALUE=DATE:20100309
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:nu1qbf9j6dl2soji19mferu92c@google.com
+CREATED:20100315T153651Z
+DESCRIPTION:Hieromartyr Polycarp\, bishop of Smyrna (167). (0167)\nVenerabl
+ es John\, Antioch\, Antoninus\, Moses\, Zebinas\, Polychronius\, Moses\, an
+ d Damian\, ascetics of the Syrian desert (5th c.). (0401)\nVenerable Gorgon
+ ia\, sister of St. Gregory the Theologian (372) (Greek). (0372)\nMartyr Cle
+ ment (Greek).\nMartyr Thea (Greek).\nNew Monk-martyr Damian the New of Phil
+ otheou\, who suffered at Larissa (1568) (Greek). (1568)\nVenerable Damian o
+ f Esphigmenou\, Mt. Athos (1280) (Greek). (1280)
+LAST-MODIFIED:20100315T153651Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Hieromartyr Polycarp\, bishop of Smyrna (167)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100307
+DTEND;VALUE=DATE:20100308
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:era5ddjjvidk0ao3s6e3lp67tg@google.com
+CREATED:20100315T153552Z
+DESCRIPTION:Uncovering of the relics of the Holy Martyrs at the gate of Eug
+ enius at Constantinople (395-423). (0402)\nVenerable Athanasius the Confess
+ or of Constantinople (826). (0826)\nMartyr Anthusa and her 12 servans (Gree
+ k).\nHoly Martyr Sinetos\nVenerables Thalassius\, Limnaeus\, and Baradates\
+ , hermits of Syria (5th c.). (0401)\nSt. Telesphorus\, pope of Rome (127). 
+ (0127)\nSt. Vlasiu\, Pope of Rome
+LAST-MODIFIED:20100315T153552Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Uncovering of the relics of the Holy Martyrs at the gate of Eugeniu
+ s at Constantinople (395-423)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100306
+DTEND;VALUE=DATE:20100307
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:drb3u419kqamcket83ga66lncg@google.com
+CREATED:20100315T153404Z
+DESCRIPTION:Venerable Timothy of Symbola in Bithynia (795). (0795)\nSt. Eus
+ tathius (Eustace)\, archbishop of Antioch (337). (0337)\nSt. George\, bisho
+ p of Amastris on the Black Sea (805). (0805)\nSt. John the Scholastic\, pat
+ riarch of Constantinople (577). (0577)\nSt. Zachariah\, patriarch of Jerusa
+ lem (633). (0633)\nMartyrs Maurice and his son Photinus\, and Martyrs Theod
+ ore\, Philip\, and 70 soldiers\, at Apamea in Syria (305). (0305)
+LAST-MODIFIED:20100315T153404Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Venerable Timothy of Symbola in Bithynia (795)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100305
+DTEND;VALUE=DATE:20100306
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:mges5dufth1h0pf421uca8j9gg@google.com
+CREATED:20100315T153009Z
+DESCRIPTION:Venerable Leo\, bishop of Catania in Sicily (ca. 780). (0780)\n
+ Hieromartyr Sadoc (Sadoth)\, bishop of Persia\, and 128 Martyrs with him (3
+ 42). (0342)\nVenerable Bessarion the Great\, wonderworker of Egypt (466) (G
+ reek). (0466)\nVenerable Agatho\, pope of Rome (682). (0682)\nSt. Cindeus\,
+  bishop of Pisidia (Greek).\nOur Venerable Father Plotius
+LAST-MODIFIED:20100315T153009Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Venerable Leo\, bishop of Catania in Sicily (ca. 780)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100303
+DTEND;VALUE=DATE:20100304
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:bv0ft2399r6a0lkvv4tuejusp0@google.com
+CREATED:20100315T152813Z
+DESCRIPTION:St. Leo the Great\, pope of Rome (461). (0461)\nMartyrs Leo and
+  Parigorius of Patara of Lycia (258) (Greek). (0258)\nSt. Agapitus\, bishop
+  of Synnada in Phrygia (4th c.). (0301)\nHoly Martyr Piulius
+LAST-MODIFIED:20100315T152813Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:St. Leo the Great\, pope of Rome (461)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100302
+DTEND;VALUE=DATE:20100303
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:lfdjnj7u1gt2leoj9fufec14uk@google.com
+CREATED:20100315T152607Z
+DESCRIPTION:Great-martyr Theodore the Tyro (306). (0306)\nSt. Mariamne\, si
+ ster of Apostle Philip (1st c.). (0100)\nSt. Auxibius\, bishop of Soli in C
+ yprus (102) (Greek). (0102)\nMartyr Theoctyrist [Theostyrictus] (8th C). (0
+ 800)\nMartyr Theoctyrist [Theostyrictus] (8th C). (0800)\nUncovering of the
+  relics (867-869) of Martyr Menas the Melodius of Alexandria (ca. 313). (08
+ 67)\nVenerable Salaman\nEmperor Marcian (457) and Pulcheria\, his wife (453
+ )\, and the commemoration of the dedication of the Great Church in Constant
+ inople (Greek). (0457)\nNew Martyr Theodore of Byzantium\, at Mitylene (179
+ 5) (Greek). (1795)
+LAST-MODIFIED:20100315T152607Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Great-martyr Theodore the Tyro (306)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100301
+DTEND;VALUE=DATE:20100302
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:savsor7maqt74h6vl9rme2ipqs@google.com
+CREATED:20100315T152455Z
+DESCRIPTION:Martyrs Pamphilus presbyter\, Valens deacon\, Paul\, Seleucus\,
+  Porphyrius\, Julian\, Theodulus\, Elias\, Jeremiah\, Isaiah\, Samuel\, and
+  Daniel\, at Caesarea in Palestine (307-309). (0307)\nVenerable Marutha\, b
+ ishop of Sophene and Martyropolis\, and others with him in Mesopotamia (422
+ ). (0422)\nSt. Flavian\, Archbishop of Antioch (381-404). (0381)\nSt. Flavi
+ an the Confessor\, patriarch of Constantinople (449). (0449)\nNew Monk-mart
+ yr Romanus of Carpenision\, who suffered at Constantinople (1694) (Greek). 
+ (1694)
+LAST-MODIFIED:20100315T152455Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Martyrs Pamphilus presbyter\, Valens deacon\, Paul\, Seleucus\, Por
+ phyrius\, Julian\, Theodulus\, Elias\, Jeremiah\, Isaiah\, Samuel\, and Dan
+ iel\, at Caesarea in Palestine (307-309)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100404
+DTEND;VALUE=DATE:20100405
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:gcp5tfv6cnab33me1i6vjtqopg@google.com
+CREATED:20100315T152232Z
+DESCRIPTION:Hieromartyr Basil\, presbyter of Ancyra (362). (0362)\nMartyrs 
+ Callinica and Basilissa of Rome (2nd c.). (0101)\nMartyr Drosida (Drosis) o
+ f Antioch\, and five virgins (104). (0104)\nNew Martyr Euthymius of Mt. Ath
+ os (1814) (Greek). (1814)
+LAST-MODIFIED:20100315T152232Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Hieromartyr Basil\, presbyter of Ancyra (362)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100403
+DTEND;VALUE=DATE:20100404
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:7egb3rpto1mrt7hon14voodlb8@google.com
+CREATED:20100315T152138Z
+DESCRIPTION:Venerable James the Confessor\, bishop\, of the Studium (late 8
+ th c.). (0780)\nSt. Thomas\, patriarch of Constantinople (610). (0610)\nMar
+ tyrs Philemon and Domnina of Rome (Greek).\nSt. Beryllus\, bishop of Catani
+ a (2nd c.). (0101)\nSt. Serapion the Sindonite\, monk of Egypt (542). (0542
+ )
+LAST-MODIFIED:20100315T152138Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Venerable James the Confessor\, bishop\, of the Studium (late 8th c
+ .)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100106
+DTEND;VALUE=DATE:20100107
+RRULE:FREQ=WEEKLY;INTERVAL=1;BYDAY=WE
+DTSTAMP:20100323T081230Z
+UID:bv2ll4u2rkso21s87juu6pck1o@google.com
+CREATED:20100315T152005Z
+DESCRIPTION:
+LAST-MODIFIED:20100315T152005Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Fasting on Wednesdays
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100104
+DTEND;VALUE=DATE:20100105
+RRULE:FREQ=WEEKLY;WKST=MO;BYDAY=MO
+DTSTAMP:20100323T081230Z
+UID:91bgp6o1gshjb3t1b30llshmsc@google.com
+CREATED:20100315T151928Z
+DESCRIPTION:
+LAST-MODIFIED:20100315T151928Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Fasting on Mondays (optional)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100101
+DTEND;VALUE=DATE:20100102
+RRULE:FREQ=WEEKLY;INTERVAL=1;BYDAY=FR
+DTSTAMP:20100323T081230Z
+UID:vuhaku33rkcg5ter2mmqiie8ro@google.com
+CREATED:20100315T151839Z
+DESCRIPTION:
+LAST-MODIFIED:20100315T151839Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Fasting on Fridays
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100402
+DTEND;VALUE=DATE:20100403
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:9kfmbqbgr22t64ao5nbl5jqhmc@google.com
+CREATED:20100315T150851Z
+DESCRIPTION:The Holy Fathers who were slain at the Monastery of St.Sabbas: 
+ Venerables John\, Sergius\, Patrick\, and others (796). (0796)\nSt. Nicetas
+  the Confessor\, bishop of Apollonias in Bithynia (813). (0813)\nSeven Virg
+ in-martyrs of Amisus (Samsun): Alexandra\, Claudia\, Euphrasia\, Matrona\, 
+ Juliana\, Euphemia\, and Theodosia (310). (0310)\nMartyrs Rodion\, Aquila t
+ he Eparch\, Longinus\, and Emmanuel (Greek).\nNew Martyr Myron of Crete (17
+ 93). (1793)
+LAST-MODIFIED:20100315T150851Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:The Holy Fathers who were slain at the Monastery of St.Sabbas: Vene
+ rables John\, Sergius\, Patrick\, and others (796)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100401
+DTEND;VALUE=DATE:20100402
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:d7pmb92unhpgqettlfgin7322k@google.com
+CREATED:20100315T142950Z
+DESCRIPTION:Martyrs Chrysanthus and Daria\, and those with them at Rome: Cl
+ audius\, Hilaria\, Jason\, Maurus\, Diodorus presbyter\, and Marianus deaco
+ n (283). (0283)\nSt. Claudiu the Tribune. St. martyress Ilaria\, wife of Cl
+ audiu. Holy Martyrs Jason and Mavru\, sons of the Tribune Claudiu and Ilari
+ a\nMartyr Pancharius at Nicomedia (302). (0302)\nDiodorus Holy priest and M
+ arian the deacon\nNew Martyr Demetrius at Constantinople (1564) (Greek). (1
+ 564)
+LAST-MODIFIED:20100315T142950Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Martyrs Chrysanthus and Daria\, and those with them at Rome: Claudi
+ us\, Hilaria\, Jason\, Maurus\, Diodorus presbyter\, and Marianus deacon (2
+ 83)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100331
+DTEND;VALUE=DATE:20100401
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:7mf4942e243gqfqenmll5ls5g0@google.com
+CREATED:20100315T142846Z
+DESCRIPTION:St. Cyril\, archbishop of Jerusalem (386). (0386)\nThe 10\,000 
+ Martyrs of Nicomedia.\nMartyrs Trophimus and Eucarpus of Nicomedia (300). (
+ 0300)\nMary\, sister of Lazarus\, who anointed the feet of Our Lord and wip
+ ed them with the hair of her head
+LAST-MODIFIED:20100315T142846Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:St. Cyril\, archbishop of Jerusalem (386)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100330
+DTEND;VALUE=DATE:20100331
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:dknc8omi05l8rhho5ovmtt5rb8@google.com
+CREATED:20100315T142707Z
+DESCRIPTION:Venerable Alexis the Man of God\, in Rome (411). (0411)\nThe pu
+ nishment of terrible earthquake during the reign of Emperor Constantine\nMo
+ nk-martyr Paul of Crete (767). (0767)\nSt. Theosterictus the Confessor\, ab
+ bot of Pelecete Monastery near Prusa (826). (0826)\nMartyr Marinus\, soldie
+ r\, at Caesarea in Palestine (260). (0260)
+LAST-MODIFIED:20100315T142707Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Venerable Alexis the Man of God\, in Rome (411)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100329
+DTEND;VALUE=DATE:20100330
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:9ibkg2h532popa2i9dbi6s7qfo@google.com
+CREATED:20100315T142612Z
+DESCRIPTION:Martyr Sabinas of Hermopolis\, Egypt (303). (0303)\nMartyr Papa
+ s of Lycaonia (305). (0305)\nMartyr Julian of Anazarbus (305). (0305)\nSt. 
+ John at Rufiane\nMartyr Romanus at Parium on the Hellespont.\n10 Martyrs in
+  Phoenicia (Greek).\nHieromartyr Alexander\, pope of Rome (119). (0119)\nVe
+ nerable Aninas\, the wonderworker\nVenerable Christodulus\, wonderworker of
+  Patmos (1093). (1093)
+LAST-MODIFIED:20100315T142612Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Martyr Sabinas of Hermopolis\, Egypt (303)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100328
+DTEND;VALUE=DATE:20100329
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:4bf8qu14mvsnsv7tmalkgeneas@google.com
+CREATED:20100315T142515Z
+DESCRIPTION:Martyrs Agapius\, Publius (Pauplios)\, Timolaus\, Romulus\, two
+  named Dionysius\, and two named Alexander\, at Caesarea in Palestine (303)
+ . (0303)\nApostle Aristobulus of the Seventy\, bishop of Britain (1st c.). 
+ (0100)\nMartyr Nicander of Egypt (302). (0302)\nNew Martyr Manuel of Crete 
+ (1792) (Greek). (1792)
+LAST-MODIFIED:20100315T142515Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Martyrs Agapius\, Publius (Pauplios)\, Timolaus\, Romulus\, two nam
+ ed Dionysius\, and two named Alexander\, at Caesarea in Palestine (303)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100327
+DTEND;VALUE=DATE:20100328
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:tj6sl9h380iulinvmj58ovmm9g@google.com
+CREATED:20100315T142406Z
+DESCRIPTION:Venerable Benedict of Nursia\, abbot (543). (0543)\nHoly Martyr
+  Alexander at Pidna\nSt. Euschemon\, bishop of Lampsacus (9th c.). (0801)
+LAST-MODIFIED:20100315T142406Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Venerable Benedict of Nursia\, abbot (543)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100326
+DTEND;VALUE=DATE:20100327
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:agabqnvc67g5rn6kcg87bbp1ik@google.com
+CREATED:20100315T142313Z
+DESCRIPTION:Translation of the relics (846) of St. Nicephorus the Confessor
+ \, patriarch of Constantinople (829). (0846)\nMartyrs Africanus\, Publius\,
+  and Terence of Carthage (3rd c.). (0201)\nMartyr Sabinus (Abibus) of Egypt
+  (303). (0303)\nMartyr Christina of Persia (4th c.). (0301)\nHieromartyr Pu
+ blius\, bishop of Athens and disciple of St. Dionysius the Areopagite (2nd 
+ c.). (0150)
+LAST-MODIFIED:20100315T142313Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Translation of the relics (846) of St. Nicephorus the Confessor\, p
+ atriarch of Constantinople (829)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100325
+DTEND;VALUE=DATE:20100326
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:mks5t0spfm6cjigs1q4fcc8ars@google.com
+CREATED:20100315T142226Z
+DESCRIPTION:Venerable Theophanes the Confessor of Sigriane (818). (0818)\nS
+ t. Gregory the Dialogist\, pope of Rome (604). (0604)\n9 Sts. Martyrs\nVene
+ rable Symeon the New Theologian (1022) and his elder Symeon the Reverent of
+  the Studium (987). (1022)
+LAST-MODIFIED:20100315T142226Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Venerable Theophanes the Confessor of Sigriane (818)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100324
+DTEND;VALUE=DATE:20100325
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:7os8akobepig1vth1o76fo4um4@google.com
+CREATED:20100315T142117Z
+DESCRIPTION:St. Sophronius\, patriarch of Jerusalem (638). (0638)\nHieromar
+ tyr Pionius of Smyrna and those with him: Asclepiades\, Macedonia\, Linus a
+ nd Sabina (250). (0250)\nVenerable George the New\, wonderworker of Constan
+ tinople (970) (Greek). (0970)\nMartyrs Trophimus and Thalus of Laodicea (30
+ 0) (Greek). (0300)\nTranslation of the relics of Martyr Epimachus of Pelusi
+ um to Constantinople (250). (0250)
+LAST-MODIFIED:20100315T142117Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:St. Sophronius\, patriarch of Jerusalem (638)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100323
+DTEND;VALUE=DATE:20100324
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:6v8o6jihria0j9gg0ed2dmsm4s@google.com
+CREATED:20100315T141902Z
+DESCRIPTION:Martyrs Codratus (Quadratus) and with him: Cyprian\, Dionysius\
+ , Anectus\, Paul\, Crescens\, Dionysius (another)\, Victorinus\, Victor\, N
+ icephorus\, Claudius\, Diodorus\, Serapion\, Papias\, Leonidas\, Chariessa\
+ , Nunechia\, Basilissa\, Nice\, Galla\, Galina\, Theodora\, and others at C
+ orinth (258). (0258)\nVenerable Anastasia the Patrician of Alexandria (567)
+ . (0567)\nMartyr Marcian (Greek).\nNew Martyr Michael of Agrapha\, Thessalo
+ nica (1544). (Greek). (1544)
+LAST-MODIFIED:20100315T141902Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Martyrs Codratus (Quadratus) and with him: Cyprian\, Dionysius\, An
+ ectus\, Paul\, Crescens\, Dionysius (another)\, Victorinus\, Victor\, Nicep
+ horus\, Claudius\, Diodorus\, Serapion\, Papias\, Leonidas\, Chariessa\, Nu
+ nechia\, Basilissa\, Nice\, Galla\, Galina\, Theodora\, and others at Corin
+ th (258
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100322
+DTEND;VALUE=DATE:20100323
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:4462se9e2rbm2r80fdclmu74jg@google.com
+CREATED:20100315T141652Z
+DESCRIPTION:The Holy Forty Martyrs of Sebaste: Cyrion (or Quirio)\, Candidu
+ s\, Domnus\, Hesychius\, Heraclius\, Smaragdus\, Eunoicus\, Valens\, Vivian
+ us\, Claudius\, Priscus\, Theodulus\, Eutychius\, John\, Xanthias\, Helianu
+ s\, Sisinius\, Angus\, Aetius\, Flavius\, Acacius\, Ecdicius\, Lysimachus\,
+  Alexander\, Elias\, Gorgonius\, Theophilus\, Dometian\, Gaius\, Leontius\,
+  Athanasius\, Cyril\, Sacerdon\, Nicholas\, Valerius\, Philoctimon\, Severi
+ an\, Chudion\, Aglaius\,and Meliton (320). (0320)\nUrpasianus of Nicomedia 
+ (295). (0295)\nRighteous Caesarius\, brother of St. Gregory the Theologian 
+ (369). (0369)\nHoly Martyrs: a grandfather\, a grandmother\, father\, mothe
+ r and 2 children
+LAST-MODIFIED:20100315T141652Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:+) The Holy Forty Martyrs of Sebaste: Cyrion (or Quirio)\, Candidus
+ \, Domnus\, Hesychius\, Heraclius\, Smaragdus\, Eunoicus\, Valens\, Vivianu
+ s\, Claudius\, Priscus\, Theodulus\, Eutychius\, John\, Xanthias\, Helianus
+ \, Sisinius\, Angus\, Aetius\, Flavius\, Acacius\, Ecdicius\, Lysimachus\, 
+ Alexander\, Elias\, Gorgonius\, Theophilus\, Dometian\, Gaius\, Leontius\, 
+ Athanasius\, Cyril\, Sacerdon\, Nicholas\, Valerius\, Philoctimon\, Severia
+ n\, Chudion\, Aglaius\,and Meliton (320)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100321
+DTEND;VALUE=DATE:20100322
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:2lrghlf5bt62vnkkkff6n4el24@google.com
+CREATED:20100315T141344Z
+DESCRIPTION:Venerable Theophylactus\, bishop of Nicomedia (845). (0845)\nVe
+ nerable Paul of Prusias\, confessor (840) (Greek). (0840)\nApostle Hermas o
+ f the Seventy (1st c.). (0100)\nMartyr Dio (Greek).\nVenerable Dometius\, m
+ onk (363). (0363)
+LAST-MODIFIED:20100315T141344Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Venerable Theophylactus\, bishop of Nicomedia (845)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100320
+DTEND;VALUE=DATE:20100321
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:4772phd319jsq8g8lmdr0bu50k@google.com
+CREATED:20100315T141239Z
+DESCRIPTION:The Holy Hieromartyrs of Cherson: Basil\, Ephraim\, Capito\, Eu
+ gene\, Aetherius\, Elpidius\, and Agathodorus (4th c.). (0301)\nSts. Nestor
+  and Arcadius\, bishops of Tremithus (Greek).\nVenerable Paul the Simple of
+  Egypt\, disciple of St. Anthony the Great (4th c.). (0301)\nSt. Ephraim\, 
+ Patriarch of Antioch (546). (0546)
+LAST-MODIFIED:20100315T141239Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:The Holy Hieromartyrs of Cherson: Basil\, Ephraim\, Capito\, Eugene
+ \, Aetherius\, Elpidius\, and Agathodorus (4th c.)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100319
+DTEND;VALUE=DATE:20100320
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:t5mitnvvrcqji5jqn8bhp3vbc4@google.com
+CREATED:20100315T141052Z
+DESCRIPTION:The 42 Martyrs of Ammoria in Phrygia\, including: Constantine\,
+  Aetius\, Theophilus\, Theodore\, Melissenus\, Callistus\, Basoes\, and oth
+ ers (845). (0845)\nVenerable Arcadius\, monk\, of Cyprus (361)\, and his di
+ sciples Julian and Bulius. (0361)\nSt. Hesychius the Wonderworker\, monk (G
+ reek).\nMonk-martyr Maximus (Greek).\nMartyr Euphrosynus (Greek).\nThe unco
+ vering of the Precious Cross and the Precious Nails by Empress St. Helen (3
+ 26). (0326)\nMartyrs Julian and Eubulus (Greek).
+LAST-MODIFIED:20100315T141052Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:The 42 Martyrs of Ammoria in Phrygia\, including: Constantine\, Aet
+ ius\, Theophilus\, Theodore\, Melissenus\, Callistus\, Basoes\, and others 
+ (845)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100318
+DTEND;VALUE=DATE:20100319
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:gap6eklsbmosliu0ad3vpdjpgc@google.com
+CREATED:20100315T135917Z
+DESCRIPTION:Martyr Conon of Isauria (2nd c.). (0101)\nMartyr Conon the Gard
+ ener of Pamphylia (251). (0251)\nVenerable Mark the Faster of Egypt (5th c.
+ ). (0401)\nMartyr Eulogius of Palestine.\nMartyr Eulampius of Palestine.\nM
+ artyr Archelaus and 152 Martyrs in Egypt.\nNew Martyr John the Bulgarian (M
+ t. Athos)\, at Constantinople (1784) (Greek). (1784)
+LAST-MODIFIED:20100315T135917Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Martyr Conon of Isauria (2nd c.)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100317
+DTEND;VALUE=DATE:20100318
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:0bg0fbn0768gs7et64u6k5kur8@google.com
+CREATED:20100315T135714Z
+DESCRIPTION:Venerable Gerasimus of the Jordan (475). (0475)\nMartyrs Paul\,
+  his sister Juliana\, and Quadratus\, Acacius\, and Stratonicus\, at Ptolem
+ ais in Syria (273). (0273)\nSt. Gregory\, bishop of Constantia in Cyprus.\n
+ St. Gregory\, bishop of Assos near Ephesus (1150). (1150)
+LAST-MODIFIED:20100315T135714Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Venerable Gerasimus of the Jordan (475)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100316
+DTEND;VALUE=DATE:20100317
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:5jt2oj6nh04rqovc8j8nsge6sg@google.com
+CREATED:20100315T135556Z
+DESCRIPTION:Martyr Eutropius of Amasea\, and with him Martyrs Cleonicus and
+  Basiliscus (308). (0308)\nHieromartyr Theodoretus\, Priest of Antioch (361
+ -363) (Greek). (0362)\nSts. Zeno and Zoilus.\nVenerable Piama\, virgin (337
+ ). (0337)
+LAST-MODIFIED:20100315T135556Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Martyr Eutropius of Amasea\, and with him Martyrs Cleonicus and Bas
+ iliscus (308)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20100315
+DTEND;VALUE=DATE:20100316
+RRULE:FREQ=YEARLY;INTERVAL=1
+DTSTAMP:20100323T081230Z
+UID:mik0ccsrp0fheof3801i1vsbd0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=aeons.
+ ro_en_BOSV;X-NUM-GUESTS=0:mailto:jqughq5s56cr8mdng2cikl2d3c@group.calendar.
+ google.com
+CREATED:20100315T083110Z
+DESCRIPTION:Hieromartyr Theodotus\, bishop of Cyrenia (315). (0315)\nMartyr
+  Hesychius the Palatine of Antioch (304). (0304)\nSt. Quintus of Phrygia\, 
+ confessor and wonderworker (283) (Greek). (0283)\nHieromartyrs Nestor the b
+ ishop and Tribimius the deacon of Perga in Pamphylia (250). (0250)\nApostle
+  Parmena\, one of the 7 deacons\nMartyr Troadius of Neo-Caesarea (3rd c.). 
+ (0201)\nVirgin-martyr Euthalia of Sicily (257). (0257)\nMartyr Andronicus a
+ nd the virgin Athanasia (Greek).
+LAST-MODIFIED:20100315T135347Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Hieromartyr Theodotus\, bishop of Cyrenia (315)
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
