@@ -84,7 +84,7 @@ document.write('<center style="font-size:small;">' + html + '</center>');
 	    day = Math.ceil(temp3 - temp2);
 	    if (day < 1) {
 	        month--; 
-	        day = getDaysInMonth(month,year) + day;
+	        day = daysInMonth(month,year) + day;
 	    }
 		date = [year, month, day];
 		return date;
