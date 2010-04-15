@@ -61,7 +61,7 @@
 julDate = calculateDate(daycount,aeons);
   	html +=  "[<a target='_blank' style='text-decoration:none;' href='http://aeons.ro/index.php?option=com_aeons&amp;view=day&amp;day="+julDate[2]+"&amp;month="+
 	julDate[1]+"&amp;year="+julDate[0]+"'>tomorrow</a>]</b>";
-	html += '<br/><object type="application/x-shockwave-flash" data="dewplayer.swf" width="100" height="20" id="dewplayer" name="dewplayer"><param name="wmode" value="transparent" />	<param name="movie" value="dewplayer.swf" />	<param name="flashvars" value="mp3=http://realserver.goarch.org/en/readings/daily/owp'+curMonth+curDay+curYear+'.mp3&amp;showtime=1&amp;volume=50" />	</object>';
+	html += '<br/><object type="application/x-shockwave-flash" data="http://www.alsacreations.fr/mediaflash/dewplayer.swf" width="100" height="20" id="dewplayer" name="dewplayer"><param name="wmode" value="transparent" />	<param name="movie" value="http://www.alsacreations.fr/mediaflash/dewplayer.swf" />	<param name="flashvars" value="mp3=http://realserver.goarch.org/en/readings/daily/owp'+julDate[1]+julDate[2]+julDate[0]+'.mp3&amp;showtime=1&amp;volume=50" />	</object>';
 document.write('<center style="font-size:small;">' + html + '</center>');
 
 
